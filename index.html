@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>ゲームガイド</title>
+    <meta http-equiv="X-UA-Compatible" content="text/css">
+    <meta name="author" content="Slime_Lab">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- CSS Icon -->
+    <link rel="shortcut icon" href="htmlimage/lab_logo.svg">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- vue js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue-kinesis@1.0.5/dist/vue-kinesis.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-niege@0.1.1/dist/snow.umd.min.js"></script>
+</head>
+
+<header>
+    <div id="loading">
+        <div class="spinner">
+            <span>Loading...</span>
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+
+    <div id="particles-js" class="homeguide">
+        <div class="wrapper">
+            <ui class="listword">
+                <a href="#1" class="itemlist">
+                    <li>Ravenfield</li>
+                </a>
+                <a href="#2" class="itemlist">
+                    <li>ASTORNEER</li>
+                </a>
+                <a href="#3" class="itemlist">
+                    <li>X-plane 11</li>
+                </a>
+                <a href="#4" class="itemlist">
+                    <li>Space Engine</li>
+                </a>
+                <a href="about.html" class="itemlist">
+                    <li>About</li>
+                </a>
+                <li><button type="button" class="zdo_drawer_button">
+                        <span class="zdo_drawer_bar zdo_drawer_bar1"></span>
+                        <span class="zdo_drawer_bar zdo_drawer_bar2"></span>
+                        <span class="zdo_drawer_bar zdo_drawer_bar3"></span>
+                        <span class="zdo_drawer_menu_text zdo_drawer_text">MENU</span>
+                        <span class="zdo_drawer_close zdo_drawer_text">CLOSE</span>
+                    </button></li>
+            </ui>
+        </div>
+    </div>
+</header>
+
+<body>
+    <section>
+        <kinesis-container id="guide">
+            <kinesis-element :strength="30" type="depth">
+                <h1 class="welcome"><span>Welcome<br>to the<br>Game Guide</span></h1>
+            </kinesis-element>
+        </kinesis-container>
+        <div class="row">
+            <h2 class="how">どのゲームガイドを参照する？</h2>
+            <div class="boxsuper">
+                <a class="box" href="#1">Ravenfield</a>
+                <a class="box" href="#2">ASTRONEER</a>
+                <a class="box" href="#3">X-plane 11</a>
+                <a class="box" href="#4">Space Engine</a>
+            </div>
+            <div class="mouse">
+                <span></span>
+            </div>
+        </div>
+        <div id="1"></div>
+        <div class="black_screen">
+            <div class="gridmask">
+                <div class="div1">
+                    <div class="div2">
+                        <div class="fadein">
+                            <div class="RA_screen"><img src="htmlimage/Ravenfield/r5a.png"
+                                    style="max-height:700px; max-width:900px;"></div>
+                        </div>
+                    </div>
+                    <div class="div3">
+                        <div class="fadein">
+                            <div class="titles"><img src="htmlimage/Ravenfield/logo.png"
+                                    style="max-width:694px; max-height: 160px;"></div>
+                        </div>
+                    </div>
+                    <div class="div4">
+                        <div class="fadein">
+                            <div class="Details">
+                                <p>RavenfieldはSteelRaven7 (Johan Hassel)によって作成された一人称シューティングゲームです。<br>
+                                    このゲームは、Battlefield 2やStar Wars：Battlefront 2のようなシューティングゲームに基づいています。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div5">
+                        <div class="fadein">
+                            <div class="btnsp"><a class="btn"
+                                    href="https://steamcommunity.com/sharedfiles/filedetails/?id=1593517857">Ravenfield</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="2"></div>
+        <div class="black_screen">
+            <div class="gridmask">
+                <div class="div1">
+                    <div class="div2">
+                        <div class="fadein">
+                            <div class="RA_screen"><img src="htmlimage/ASTRONNER/Adisp.png"
+                                    style="max-height:750px; max-width:900px;"></div>
+                        </div>
+                    </div>
+                    <div class="div3">
+                        <div class="fadein">
+                            <div class="titles"><img src="htmlimage/ASTRONNER/astroneer-logo.png"
+                                    style="max-width:894px; max-height: 129px;"></div>
+                        </div>
+                    </div>
+                    <div class="div4">
+                        <div class="fadein">
+                            <div class="Details">
+                                <p>ASTRONEERは、System Era Softworksが開発したサンドボックスアドベンチャーゲームです。<br>
+                                    このゲームは2019年2月6日に正式リリースされました。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div5">
+                        <div class="fadein">
+                            <div class="btnsp"><a class="btn"
+                                    href="https://store.steampowered.com/app/361420/ASTRONEER/">ASTRONEER</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="3"></div>
+        <div class="black_screen">
+            <div class="gridmask">
+                <div class="div1">
+                    <div class="div2">
+                        <div class="fadein">
+                            <div class="RA_screen"><img src="htmlimage/X-plane11/X1a.png"
+                                    style="max-height:750px; max-width:900px;"></div>
+                        </div>
+                    </div>
+                    <div class="div3">
+                        <div class="fadein">
+                            <div class="titles"><img src="htmlimage/X-plane11/X11logo.png"
+                                    style="max-width:694px; max-height: 166px;"></div>
+                        </div>
+                    </div>
+                    <div class="div4">
+                        <div class="fadein">
+                            <div class="Details">
+                                <p>Xplane 11はLaminar Researchが開発したフライトシミュレーターです。<br>
+                                    アメリカの連邦航空局(FAA)は飛行訓練用のフライトシミュレーションとして認めている他、<br>
+                                    スケールド・コンポジッツはスペースシップワンのシミュレーションに利用した。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div5">
+                        <div class="fadein">
+                            <div class="btnsp"><a class="btn"
+                                    href="https://store.steampowered.com/app/269950/XPlane_11/">X-plane 11</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="4"></div>
+        <div class="black_screen">
+            <div class="gridmask">
+                <div class="div1">
+                    <div class="div2">
+                        <div class="fadein">
+                            <div class="RA_screen"><img src="htmlimage/Space_Engine/SpaceEngine1a.png"
+                                    style="max-height:750px; max-width:900px;"></div>
+                        </div>
+                    </div>
+                    <div class="div3">
+                        <div class="fadein">
+                            <div class="titles"><img src="htmlimage/Space_Engine/SpaceEngine_logo.png"
+                                    style="max-width:640px; max-height: 108px;"></div>
+                        </div>
+                    </div>
+                    <div class="div4">
+                        <div class="fadein">
+                            <div class="Details">
+                                <p>SpaceEngineは、ロシアの天文学者でプログラマのVladimir Romanyukによって開発されている独自の<br>
+                                    3D宇宙空間シミュレーションソフトウェア及びゲームエンジンである。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div5">
+                        <div class="fadein">
+                            <div class="btnsp"><a class="btn"
+                                    href="https://store.steampowered.com/app/314650/SpaceEngine/">Space Engine</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+<footer>
+    <small>&#169;2020 Slime_Lab</small>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script>
+    window.onload = function () {
+        const spinner = document.getElementById('loading');
+        spinner.classList.add('loaded');
+
+    }
+</script>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<script>
+    const Snow = window.Snow.default;
+
+    let app = new Vue({
+        el: '#app',
+        components: {
+            Snow,
+        }
+    });
+
+</script>
+<script>
+    const KinesisContainer = window['vue-kinesis'].KinesisContainer;
+    const KinesisElement = window['vue-kinesis'].KinesisElement;
+
+    Vue.component('kinesis-container', KinesisContainer)
+    Vue.component('kinesis-element', KinesisElement)
+
+    new Vue({
+        el: '#guide',
+    });
+
+</script>
+<script>
+    (function (d) {
+        var config = {
+            kitId: 'cdm0xyr',
+            scriptTimeout: 3000,
+            async: true
+        },
+            h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+    })(document);
+</script>
+<script>
+    $(window).scroll(function () {
+        $('.fadein').each(function () {
+            var elemPos = $(this).offset().top,
+                scroll = $(window).scrollTop(),
+                windowHeight = $(window).height();
+            if (scroll > elemPos - windowHeight + 250) {
+                $(this).addClass('scrollin');
+            }
+        });
+    });
+</script>
+<script>$(function () {
+        $('a[href^="#"]').click(function () {
+            var speed = 500;
+            var href = $(this).attr("href");
+            var target = $(href == "#" || href == "" ? 'html' : href);
+            var position = target.offset().top;
+            $("html, body").animate({ scrollTop: position }, speed, "swing");
+            return false;
+        });
+    });</script>
+
+</html>
